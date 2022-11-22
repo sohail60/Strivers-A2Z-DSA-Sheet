@@ -2,8 +2,8 @@ import java.util.Arrays;
 
 public class SecondLargest {
     public static void main(String[] args) {
-        int[] arr= {35,35, 35};
-        System.out.println(secondLargest4(arr));
+        int[] arr= {35,35,35,34};
+        System.out.println(secondLargest2(arr));
     }
 
     static int secondLargest1(int[] arr){
